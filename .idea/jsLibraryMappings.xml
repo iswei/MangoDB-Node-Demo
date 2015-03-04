@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$" libraries="{MangoDB-Node-Demo node_modules}" />
+=======
+>>>>>>> 49c224204041a90ff5926d0ba2d3ed01b913327b
     <file url="PROJECT" libraries="{Node.js v0.12.0 Core Modules}" />
     <includedPredefinedLibrary name="Node.js Globals" />
   </component>
