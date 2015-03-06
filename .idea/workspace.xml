@@ -2,7 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b56450-799f-4001-bcb4-b75d157eb2b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/script.js" afterPath="$PROJECT_DIR$/db/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbmodels/Kitten.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/mongoosesimple.js" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\browserDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\cast.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\document_provider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\error\browserMissingSchema.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\lib\services\updateValidators.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\lib\async.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\async\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\docs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\node_modules\mongoose\node_modules\kareem\test\examples.test.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\IBM_ADMIN\WebstormProjects\MongoDB-Node-Demo\db\script.js" afterPath="$PROJECT_DIR$/db/mongoose.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/Readme.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/aggregation.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/aggregation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/base.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/binding.gyp" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/binding.gyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/command_cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/command_cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/commands.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/commands.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/core.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursorstream.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursorstream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/db.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/geo.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/geo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/gridfs/grid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/gridfs/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/gridfs/gridstore.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/gridfs/gridstore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/repl_set/ha.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/repl_set/ha.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/collection/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/collection/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_gssapi.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_gssapi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_plain.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_plain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_scram.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_scram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_sspi.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/auth/mongodb_sspi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/mongos.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/mongos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/mquery.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/lib/mquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.domain.test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.domain.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/promise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/query.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/worker.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/worker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.h" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MangoDB-Node-Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,14 +172,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/script.js">
+      <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48051947" vertical-offset="129" max-vertical-offset="1360">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.024350649" vertical-offset="529" max-vertical-offset="1479">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongoosesimple.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/mongoosesimple.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kitten.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbmodels/Kitten.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="884">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,6 +225,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/javascripts/script.js" />
         <option value="$PROJECT_DIR$/db/script.js" />
+        <option value="$PROJECT_DIR$/dbmodels/schema.js" />
+        <option value="$PROJECT_DIR$/db/mongoosesimple.js" />
+        <option value="$PROJECT_DIR$/dbmodels/Kitten.js" />
       </list>
     </option>
   </component>
@@ -134,39 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MangoDB-Node-Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoDB-Node-Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MangoDB-Node-Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MongoDB-Node-Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="dbmodels" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,10 +415,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1042" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25950783" sideWeight="0.49946523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25950783" sideWeight="0.49946523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -360,22 +485,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="255">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -760,13 +869,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/script.js">
+    <entry file="file://$PROJECT_DIR$/db/mongoosesimple.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48051947" vertical-offset="129" max-vertical-offset="1360">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbmodels/Kitten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="884">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024350649" vertical-offset="529" max-vertical-offset="1479">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

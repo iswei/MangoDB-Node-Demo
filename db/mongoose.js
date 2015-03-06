@@ -1,6 +1,11 @@
+
 /**
  * Created by linwei on 3/5/2015.
+ *
+ * This page requires node moongoose dependency, install using npm install mongoose
  */
+
+
 var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/test');
@@ -34,7 +39,7 @@ db.once('open', function (callback) {
     }
 
     var Kitten = mongoose.model('Kitten', kittySchema)
-
+/**
     Kitten.findOne({"age":3}, function(err, koda){
         "use strict";
         if(err)return console.error(err);
@@ -43,7 +48,7 @@ db.once('open', function (callback) {
     });
 
 
-/*
+
     var koda = new Kitten({
         name: {
             first: 'Koda',
@@ -71,6 +76,6 @@ db.once('open', function (callback) {
 
     });
 
- */
+**/
 });
 
