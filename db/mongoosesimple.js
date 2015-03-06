@@ -30,7 +30,7 @@ simpledb.init(function(err, db){
         });
         */
     });
- /*
+
     var koda = new db.Kitten({
         name: {
             first: 'Koda',
@@ -40,5 +40,5 @@ simpledb.init(function(err, db){
     });
     koda.save();
 
-  */
+
 })

@@ -7,5 +7,18 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <h3>My name is <%=koda.name.full%> and I am <%=koda.age%> years old</h3>
+
+  <form action="/createKitten" method="POST">
+      <input type="hidden", name="_id", value=<%=koda._id%>>
+      First name:<br>
+      <input type="text" name="firstName" label="firstName" value=<%=koda.name.first%>>
+      <br>
+      Last name:<br>
+      <input type="text" name="lastName" label="lastName" value = <%=koda.name.last%>>
+      <input type="text" name="age" label="age" value = <%=koda.age%>>
+      <br><br>
+      <input type="submit" value="Submit">
+  </form>
   </body>
 </html>
