@@ -1,4 +1,4 @@
-# MangoDB-Node-Demo
+# MongoDB-Node-Demo
 use for MongoDB + Mongoosejs + mongoose-simpledb
 
 MIT License, used for demo and learning purposes
